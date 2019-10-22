@@ -100,6 +100,22 @@ h6 {
     background-size: cover
 }
 
+@media (max-width:900px) {
+    .masthead {
+        min-height: 30rem;
+        position: relative;
+        display: table;
+        width: 100%;
+        height: auto;
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+        background: rgb(50,50,50);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover
+    }
+}
+
 .masthead h1 {
     font-size: 4rem;
     margin: 0;
@@ -253,6 +269,17 @@ h6 {
     background-repeat: no-repeat;
     background-size: cover
 }
+
+@media (max-width:900px) {
+    .callout {
+        padding: 15rem 0;
+        background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, .1)), to(rgba(255, 255, 255, .1))), url(../img/bg-callout-min.jpg);
+        background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url(../img/bg-callout-min.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover
+    }
+    }
 
 .callout h2 {
     font-size: 3.5rem;
