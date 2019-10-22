@@ -6,6 +6,15 @@ a {
   transition-duration: 0.3s;
 }
 
+
+ a:visited {
+color:white
+}
+
+ a:hover {
+  color:#eeb61b;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -74,16 +83,7 @@ h3 {
   display: block;
   opacity: 0.7;
 }
-.resume .func .work ul li a:link {
-  color: #eeb61b;
-}
-.resume .func .work ul li a:visited {
-color:white
-}
 
-.resume .func .work ul li a:hover {
-  color:#eeb61b;
-}
 
 
 .resume .func .work ul li,
